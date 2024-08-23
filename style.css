@@ -1,0 +1,168 @@
+body {
+  background: conic-gradient(#88d4fc, #f04a4d);
+  background-repeat: no-repeat;
+  font-family: Georgia, serif;
+  padding: 5px 15%;
+}
+
+p {
+  color: black;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  background-color: palegoldenrod;
+  padding: 5px;
+  margin: 5px 5px 15px 5px;
+  border: 5px inset floralwhite;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  background-color: palegoldenrod;
+  margin: 5px 5px 0px 5px;
+  padding: 5px;
+
+}
+
+h3 {
+  padding: 5px
+}
+
+.fakelink {
+  color: #3366CC;
+  text-decoration: underline;
+}
+
+nav {
+  list-style-type: none;
+  margin: 5px 5px 15px 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: palegoldenrod;
+}
+
+nav button {
+  float: left;
+  text-align: center;
+  padding: 9px 11px;
+  border: 5px inset floralwhite;
+  background-color: palegoldenrod;
+}
+
+nav button a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+nav button:hover {
+  background-color: floralwhite;
+  color: black;
+  border: 5px inset palegoldenrod;
+  padding: 9px 11px
+}
+
+.adtype {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: palegoldenrod;
+  margin: 5px;
+  padding: 5px;
+  border: 5px inset floralwhite;
+}
+
+.adtype ul {
+  margin: 0 5px;
+  padding: 5px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.adtype li {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  background-color: floralwhite;
+}
+
+div p {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  width: 98%;
+  background-color: floralwhite;
+}
+
+hr {
+  color: floralwhite;
+  margin: 15px 5px
+}
+
+.u {
+  color: black;
+  text-align: left;
+  background-color: floralwhite;
+  padding: 5px;
+  margin: 0px 5px;
+  border-style: hidden inset inset;
+  border-width: 5px;
+  border-color: palegoldenrod;
+}
+
+.h {
+  background-color: palegoldenrod;
+  margin: 5px 5px 0px 5px;
+  border-style: inset inset hidden;
+  border-width: 5px;
+  border-color: floralwhite;
+}
+
+.l {
+  background-color: palegoldenrod;
+  text-align: center;
+  color: black;
+  margin: 0 5px;
+}
+
+.characters {
+  padding: 0 5px;
+}
+
+.characters .h {
+  margin:0;
+}
+
+.characters table {
+  width: 100%;
+  border-style: hidden inset inset;
+  border-width: 5px;
+  background-color: floralwhite;
+  border-color: palegoldenrod;
+}
+
+.az {
+  background-color: #88d4fc;
+  border: 3px solid floralwhite;
+  padding: 5px;
+}
+
+.cr {
+  background-color: #f04a4d;
+  border: 3px solid floralwhite;
+  padding: 5px;
+}
+
+.inh{
+  background: linear-gradient(to left, #f04a4d, #88d4fc);
+  border: 3px solid floralwhite;
+  padding: 5px;
+}
